@@ -1,0 +1,4 @@
+.venv/
+.openminion/
+__pycache__/
+*.pyc

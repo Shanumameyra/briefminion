@@ -1,0 +1,11 @@
+== stub model jalan di http://127.0.0.1:8765/v1 (brief-stub-1)
+
+== Run 1 (session demo-1): Buatkan brief tentang Cortensor
+   Agen: briefer: Selesai. Brief tersimpan di `briefs/brief-cortensor-hackathon-5.md` — disusun dari catatan lokal lewat pencarian, pembacaan, dan penyimpanan sebagai satu alur agen.
+
+== Run 2 (session demo-1 lagi): Brief apa saja yang sudah dibuat?
+   Agen: briefer: Brief yang sudah dibuat sebelumnya:
+briefs/brief-cortensor-hackathon-5.md | Brief Cortensor Hackathon #5 | Topik: **Cortensor Hackathon #5**. Brief ini dirangkum dari catatan lokal `notes/cortensor.md`.
+Itu arsip dari sesi-sesi sebelumnya; minta topik baru kalau mau brief lain.
+
+== demo selesai

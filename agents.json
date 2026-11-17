@@ -1,0 +1,20 @@
+{
+  "agents": {
+    "briefer": {
+      "action_policy": {
+        "allow_read_only_without_prompt": true,
+        "default_action": "require_confirm",
+        "mode": "auto"
+      },
+      "model": "brief-stub-1",
+      "provider": "openai",
+      "default_channel": "console"
+    }
+  },
+  "providers": {
+    "openai": {
+      "api_key_env": "BRIEF_STUB_API_KEY",
+      "base_url": "http://127.0.0.1:8765/v1"
+    }
+  }
+}
