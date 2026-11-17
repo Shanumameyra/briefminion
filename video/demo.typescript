@@ -1,0 +1,46 @@
+Script started on 2026-11-17 06:17:06+00:00 [COMMAND="./video/record_demo.sh" <not executed on terminal>]
+=== BriefMinion — demo agen research-brief (OpenMinion 0.1.22) ===
+
+== stub model jalan di http://127.0.0.1:8765/v1 (brief-stub-1)
+
+== Run 1 (session demo-1): Buatkan brief tentang Cortensor
+   Agen: briefer: Selesai. Brief tersimpan di `briefs/brief-cortensor-hackathon-5.md` — disusun dari catatan lokal lewat pencarian, pembacaan, dan penyimpanan sebagai satu alur agen.
+
+== Run 2 (session demo-1 lagi): Brief apa saja yang sudah dibuat?
+   Agen: briefer: Brief yang sudah dibuat sebelumnya:
+briefs/brief-cortensor-hackathon-5.md | Brief Cortensor Hackathon #5 | Topik: **Cortensor Hackathon #5**. Brief ini dirangkum dari catatan lokal `notes/cortensor.md`.
+Itu arsip dari sesi-sesi sebelumnya; minta topik baru kalau mau brief lain.
+
+== demo selesai
+
+=== Hasil: brief yang tersimpan di briefs/ ===
+# Brief Cortensor Hackathon #5
+
+_Disusun oleh BriefMinion (OpenMinion 0.1) dari catatan lokal._
+
+## Ringkasan
+Topik: **Cortensor Hackathon #5**. Brief ini dirangkum dari catatan lokal `notes/cortensor.md`.
+
+## Fakta kunci
+- Builder round untuk Cortensor Mainnet Full Alpha. Peserta membangun satu agen kecil yang bekerja dengan OpenMinion 0.1 Python SDK, menunjukkan agen itu berjalan, dan melaporkan apa yang bekerja, apa yang rusak, dan apa yang harus diperbaiki.
+- Penyelenggara: Cortensor, lewat DoraHacks (dorahacks.io/hackathon/2418/detail)
+- Periode: 16 Okt – 19 Des 2026 (Eventbrite; dokumen resmi Cortensor menulis tanggal deadline "TBD" — lihat catatan di bawah)
+- Hadiah: total $1.150, dibayar dalam $COR setara USD. Juara 1 $500, juara 2 $300, juara 3 $200, juara 4 $100, juara 5 $50. Setiap hadiah dibagi 50% liquid di muka dan 50% staking lock satu bulan.
+- Penilaian: fungsi yang bekerja dan hasil yang berguna 25%, pemakaian SDK OpenMinion yang bermakna 20%, reproduksibilitas dan kualitas demo 20%, temuan building-block dan feedback perbaikan 25%, relevansi dengan workflow builder Cortensor 10%.
+
+## Sumber
+- `notes/cortensor.md` (catatan lokal, terverifikasi 17 Nov 2026)
+
+## Yang masih perlu dicek
+- Syarat payout akhir (identitas / KYC / W-8BEN / rekening) ada di tangan penyelenggara; bukan bagian dari brief ini.
+
+=== Tes: 23 tes unit ===
+.......................
+----------------------------------------------------------------------
+Ran 23 tests in 8.723s
+
+OK
+
+=== Demo selesai — repo: github.com/Shanumameyra/briefminion ===
+
+Script done on 2026-11-17 06:17:36+00:00 [COMMAND_EXIT_CODE="0"]

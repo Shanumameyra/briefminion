@@ -2,3 +2,5 @@
 .openminion/
 __pycache__/
 *.pyc
+video/frames/
+video/check/
